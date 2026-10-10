@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | Plumbers Websites</title>
+    <meta name="description"
+        content="Enter your email and we'll send a secure one-time link to start building your plumbing website. No password required.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body class="page-signin">
+
+    <header class="site-header signin-header" id="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo" aria-label="Plumbers Websites home">
+                plumbers<span>websites</span><small>.com</small>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html#how-it-works">How It Works</a>
+                <a href="index.html#design">Designs</a>
+                <a href="index.html#cost">Pricing</a>
+                <a href="index.html#faq">FAQ</a>
+            </nav>
+            <a href="index.html" class="hero-cta">Back to home</a>
+        </div>
+    </header>
+
+    <main class="signin-main" id="main-content">
+        <div class="signin-panel">
+            <h1 class="signin-panel__title">Let's build your website.</h1>
+            <p class="signin-panel__lead">
+                Enter your email address and we'll send a secure one-time link so you can pick up where you left off.
+                No password needed.
+            </p>
+
+            <p class="signin-panel__notice" id="signin-cross-origin-notice" hidden>
+                For security, email sign-in runs on our app at
+                <strong>app.plumberswebsites.com</strong>. Submitting will open that page to send your link—same
+                process, no password.
+            </p>
+
+            <div id="signin-form-section">
+                <form class="signin-form" id="signin-form" novalidate>
+                    <label class="signin-form__label" for="signin-email">Email address</label>
+                    <input class="signin-form__input" type="email" id="signin-email" name="accountEmail"
+                        autocomplete="email" inputmode="email" placeholder="you@example.com" required
+                        aria-describedby="signin-field-error">
+                    <p class="signin-form__error" id="signin-field-error" role="alert" hidden></p>
+                    <p class="signin-form__error" id="signin-form-error" role="alert" hidden></p>
+                    <button type="submit" class="signin-form__submit" id="signin-submit">
+                        Email me my sign-in link
+                    </button>
+                    <p class="signin-form__hint">No password required.</p>
+                </form>
+
+                <p class="signin-panel__privacy">
+                    If this address is eligible, we'll send a link. We use the same response whether or not the address
+                    is on file, to protect your privacy.
+                </p>
+
+                <p class="signin-form__error" id="signin-app-fallback" hidden>
+                    <a href="https://app.plumberswebsites.com/sign-in">Continue on app.plumberswebsites.com</a>
+                </p>
+            </div>
+
+            <div class="signin-success" id="signin-success-section" hidden role="status" aria-live="polite">
+                <h2 class="signin-success__title">Check your email</h2>
+                <p class="signin-success__body" id="signin-success-message"></p>
+                <ul class="signin-success__tips">
+                    <li>The link expires in about 15 minutes and works once.</li>
+                    <li>Check spam or junk if you do not see it within a few minutes.</li>
+                </ul>
+            </div>
+
+            <a href="index.html" class="signin-panel__back">← Return to homepage</a>
+        </div>
+    </main>
+
+    <script src="signin.js" defer></script>
+</body>
+
+</html>
