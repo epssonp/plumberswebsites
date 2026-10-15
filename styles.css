@@ -946,109 +946,25 @@ button:focus-visible {
     letter-spacing: -0.065em;
 }
 
+.hero-title .hero-title-accent {
+    display: block;
+    color: #2563eb;
+    font-size: 0.72em;
+    line-height: 1.05;
+}
+
 .hero-title span {
     display: block;
 }
 
 
-/* ---------------------------------------------------------
-   THREE STEPS
-   --------------------------------------------------------- */
-
-.hero-steps {
+.hero-description {
     width: 100%;
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 12px;
-
-    margin-top: 34px;
-}
-
-.hero-step {
-    position: relative;
-
-    padding: 0 12px;
-}
-
-.hero-step:not(:last-child)::after {
-    content: "";
-
-    position: absolute;
-
-    top: 24px;
-    right: -6px;
-
-    width: 12px;
-
-    border-top: 1px dashed var(--color-border-strong);
-}
-
-
-.hero-step-icon {
-    width: 50px;
-    height: 50px;
-
-    margin: 0 auto 12px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: 1.5px solid #a7c4ff;
-    border-radius: 50%;
-
-    background: #f7faff;
-
-    color: var(--color-primary);
-
-    font-size: 20px;
-}
-
-
-.hero-step-icon-accent {
-    border-color: #cfc4ff;
-
-    background: #faf8ff;
-
-    color: var(--color-accent);
-}
-
-
-.hero-step-icon-success {
-    border-color: #b9e6ca;
-
-    background: #f8fff9;
-
-    color: var(--color-success);
-}
-
-
-.hero-step h2 {
-    margin: 0;
-
-    color: var(--color-text);
-
-    font-size: 13px;
-    font-weight: 800;
-
-    line-height: 1.35;
-
-    letter-spacing: -0.015em;
-}
-
-
-.hero-step p {
-    margin-top: 7px;
-
-    color: var(--color-text-soft);
-
-    font-size: 12px;
-
-    line-height: 1.45;
+    max-width: 620px;
+    margin: 24px auto 0;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 
