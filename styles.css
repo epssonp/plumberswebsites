@@ -2913,3 +2913,38 @@ button:focus-visible {
         min-height: 56px;
     }
 }
+
+
+/* Live Proton Plumbing example link */
+
+#invitation .invitation-live-example-link {
+    display: block;
+    cursor: pointer;
+}
+
+#invitation .invitation-live-example-link .invitation-preview-image {
+    transition: opacity 180ms ease;
+}
+
+#invitation .invitation-live-example-link:hover .invitation-preview-image {
+    opacity: 0.94;
+}
+
+#invitation .invitation-live-example-link-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    width: fit-content;
+    margin: 0 auto 28px;
+    color: #2163f6;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+}
+
+#invitation .invitation-live-example-link-text:hover {
+    color: #174bc7;
+    text-decoration: underline;
+}
