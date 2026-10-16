@@ -3057,3 +3057,155 @@ button:focus-visible {
     font-weight: 600;
     line-height: 1.5;
 }
+
+
+/* =========================================
+   HOW IT WORKS
+   ========================================= */
+
+#design .how-it-works-content {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px 0;
+    text-align: center;
+}
+
+#design .how-it-works-eyebrow {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: var(--color-accent, #2563eb);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+#design .how-it-works-content h2 {
+    max-width: 850px;
+    margin: 0 auto 16px;
+    color: var(--color-text, #172342);
+    font-size: clamp(30px, 3.5vw, 44px);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+#design .how-it-works-intro {
+    max-width: 690px;
+    margin: 0 auto 42px;
+    color: var(--color-text-soft, #64748b);
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+#design .how-it-works-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    text-align: left;
+}
+
+#design .how-it-works-card {
+    position: relative;
+    padding: 30px 26px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 8px 28px rgba(15, 23, 42, 0.045);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+#design .how-it-works-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.09);
+}
+
+#design .how-it-works-number {
+    position: absolute;
+    top: 20px;
+    right: 22px;
+    color: #e2e8f0;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+#design .how-it-works-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    margin-bottom: 24px;
+    color: #2563eb;
+    background: #eff6ff;
+    border-radius: 14px;
+}
+
+#design .how-it-works-icon svg {
+    display: block;
+    width: 27px;
+    height: 27px;
+}
+
+#design .how-it-works-card h3 {
+    margin: 0 0 12px;
+    color: #172342;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.35;
+}
+
+#design .how-it-works-card p {
+    margin: 0;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+#design .how-it-works-reassurance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 26px;
+    margin: 34px 0 0;
+    color: #475569;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#design .how-it-works-reassurance span {
+    color: #2563eb;
+    font-weight: 800;
+}
+
+@media (max-width: 800px) {
+    #design .how-it-works-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    #design .how-it-works-card {
+        padding: 25px 23px;
+    }
+
+    #design .how-it-works-icon {
+        margin-bottom: 18px;
+    }
+
+    #design .how-it-works-intro {
+        margin-bottom: 30px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #design .how-it-works-card {
+        transition: none;
+    }
+
+    #design .how-it-works-card:hover {
+        transform: none;
+    }
+}
