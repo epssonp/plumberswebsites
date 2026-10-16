@@ -2948,3 +2948,86 @@ button:focus-visible {
     color: #174bc7;
     text-decoration: underline;
 }
+
+
+/* Highlight the live plumbing website example */
+
+#invitation .invitation-preview-toolbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 18px 16px 26px;
+}
+
+#invitation .invitation-preview-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#invitation .invitation-preview-eyebrow {
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    line-height: 1.5;
+}
+
+#invitation .invitation-preview-heading {
+    display: block;
+    color: #14213d;
+    font-size: clamp(25px, 3vw, 38px);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+}
+
+#invitation .invitation-preview-heading span {
+    display: inline-block;
+    color: #2563eb;
+    font-size: 0.8em;
+    transition: transform 180ms ease;
+}
+
+#invitation .invitation-preview-description {
+    max-width: 620px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+#invitation .invitation-preview-caption:hover
+.invitation-preview-heading {
+    color: #2563eb;
+}
+
+#invitation .invitation-preview-caption:hover
+.invitation-preview-heading span {
+    transform: translate(3px, -3px);
+}
+
+#invitation .invitation-preview-caption:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 6px;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    #invitation .invitation-preview-toolbar {
+        padding: 12px 8px 20px;
+    }
+
+    #invitation .invitation-preview-eyebrow {
+        font-size: 10px;
+        letter-spacing: 1.2px;
+    }
+
+    #invitation .invitation-preview-description {
+        font-size: 14px;
+    }
+}
