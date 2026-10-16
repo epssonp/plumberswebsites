@@ -3049,3 +3049,11 @@ button:focus-visible {
         font-size: 11px;
     }
 }
+
+.hero-cta-instruction {
+    margin: 14px 0 4px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
