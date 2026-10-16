@@ -3032,3 +3032,20 @@ button:focus-visible {
         font-size: 14px;
     }
 }
+
+.hero-cta-reassurance {
+    margin: 0;
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .hero-cta-instruction {
+        font-size: 13px;
+    }
+
+    .hero-cta-reassurance {
+        font-size: 11px;
+    }
+}
