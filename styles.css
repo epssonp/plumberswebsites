@@ -2848,6 +2848,7 @@ button:focus-visible {
     }
 
     #invitation .invitation-browser {
+        margin-top: 0;
         margin: 12px;
         border-radius: 8px;
     }
@@ -2956,7 +2957,7 @@ button:focus-visible {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 18px 16px 26px;
+    padding: 18px 16px 8px;
 }
 
 #invitation .invitation-preview-caption {
