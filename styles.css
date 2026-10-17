@@ -3475,3 +3475,404 @@ button:focus-visible {
         transform: none;
     }
 }
+
+
+/* ============================================
+   PLUMBERSWEBSITES — PREMIUM PRICING SECTION
+   ============================================ */
+
+#pricing .pricing-content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 20px 76px;
+    text-align: center;
+}
+
+/* Section introduction */
+
+#pricing .pricing-eyebrow {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    line-height: 1.5;
+}
+
+#pricing .pricing-content h2 {
+    max-width: 850px;
+    margin: 0 auto 18px;
+    color: #172342;
+    font-size: clamp(32px, 4vw, 46px);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1.2px;
+}
+
+#pricing .pricing-intro {
+    max-width: 720px;
+    margin: 0 auto 46px;
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Two pricing cards */
+
+#pricing .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 28px;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#pricing .pricing-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 36px 34px 28px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.055);
+    transition:
+        transform 200ms ease,
+        box-shadow 200ms ease,
+        border-color 200ms ease;
+}
+
+#pricing .pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.09);
+}
+
+/* Highlight the annual plan */
+
+#pricing .pricing-card-featured {
+    border: 2px solid #2563eb;
+    box-shadow: 0 16px 42px rgba(37, 99, 235, 0.10);
+}
+
+#pricing .pricing-card-featured:hover {
+    box-shadow: 0 23px 48px rgba(37, 99, 235, 0.16);
+}
+
+#pricing .pricing-popular-label {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 18px;
+    color: #ffffff;
+    background: #2563eb;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+/* Plan heading */
+
+#pricing .pricing-card-heading {
+    margin-bottom: 22px;
+}
+
+#pricing .pricing-plan-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #2563eb;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+#pricing .pricing-card-heading h3 {
+    margin: 0 0 10px;
+    color: #172342;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+}
+
+#pricing .pricing-plan-description {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+/* Price display */
+
+#pricing .pricing-price {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 0 0 5px;
+    color: #172342;
+}
+
+#pricing .pricing-currency {
+    align-self: flex-start;
+    margin-top: 8px;
+    color: #2563eb;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+#pricing .pricing-amount {
+    font-size: clamp(44px, 5vw, 58px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.1;
+}
+
+#pricing .pricing-period {
+    margin-left: 5px;
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#pricing .pricing-billing-note {
+    min-height: 24px;
+    margin: 6px 0 0;
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Annual savings */
+
+#pricing .pricing-savings {
+    align-self: flex-start;
+    margin-top: 14px;
+    padding: 8px 11px;
+    color: #166534;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+}
+
+/* Divider */
+
+#pricing .pricing-divider {
+    height: 1px;
+    margin: 26px 0 24px;
+    background: #e2e8f0;
+}
+
+/* Included features */
+
+#pricing .pricing-features {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin: 0 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+#pricing .pricing-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    color: #334155;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+#pricing .pricing-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 21px;
+    width: 21px;
+    height: 21px;
+    margin-top: 1px;
+    color: #2563eb;
+    background: #eff6ff;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+/* Pricing buttons */
+
+#pricing .pricing-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 54px;
+    margin-top: auto;
+    padding: 15px 20px;
+    border: 2px solid #2563eb;
+    border-radius: 9px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.35px;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    transition:
+        color 180ms ease,
+        background 180ms ease,
+        box-shadow 180ms ease,
+        transform 180ms ease;
+}
+
+#pricing .pricing-button-secondary {
+    color: #2563eb;
+    background: #ffffff;
+}
+
+#pricing .pricing-button-secondary:hover {
+    color: #ffffff;
+    background: #2563eb;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.18);
+    transform: translateY(-1px);
+}
+
+#pricing .pricing-button-primary {
+    color: #ffffff;
+    background: #2563eb;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.15);
+}
+
+#pricing .pricing-button-primary:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.25);
+    transform: translateY(-1px);
+}
+
+#pricing .pricing-button:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 4px;
+}
+
+/* Small note under each button */
+
+#pricing .pricing-card-footnote {
+    margin: 15px 0 0;
+    color: #94a3b8;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Reassurance row */
+
+#pricing .pricing-reassurance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 36px auto 0;
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+#pricing .pricing-reassurance > span:first-child,
+#pricing .pricing-reassurance > span:nth-of-type(2),
+#pricing .pricing-reassurance > span:nth-of-type(3) {
+    color: #2563eb;
+    font-weight: 800;
+}
+
+#pricing .pricing-reassurance .pricing-reassurance-separator {
+    color: #cbd5e1;
+}
+
+/* Tablet */
+
+@media (max-width: 760px) {
+    #pricing .pricing-content {
+        padding: 52px 18px 60px;
+    }
+
+    #pricing .pricing-intro {
+        margin-bottom: 38px;
+        font-size: 16px;
+    }
+
+    #pricing .pricing-grid {
+        max-width: 520px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    #pricing .pricing-card {
+        padding: 32px 28px 26px;
+    }
+
+    #pricing .pricing-card-featured {
+        margin-top: 6px;
+    }
+}
+
+/* Small mobile screens */
+
+@media (max-width: 420px) {
+    #pricing .pricing-content {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    #pricing .pricing-content h2 {
+        font-size: 31px;
+        letter-spacing: -0.7px;
+    }
+
+    #pricing .pricing-card {
+        padding: 29px 21px 23px;
+        border-radius: 14px;
+    }
+
+    #pricing .pricing-card-heading h3 {
+        font-size: 24px;
+    }
+
+    #pricing .pricing-amount {
+        font-size: 48px;
+    }
+
+    #pricing .pricing-features {
+        gap: 14px;
+    }
+
+    #pricing .pricing-reassurance {
+        gap: 8px;
+        font-size: 12px;
+    }
+}
+
+/* Reduced motion accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+    #pricing .pricing-card,
+    #pricing .pricing-button {
+        transition: none;
+    }
+
+    #pricing .pricing-card:hover,
+    #pricing .pricing-button:hover {
+        transform: none;
+    }
+}
