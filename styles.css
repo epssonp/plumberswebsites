@@ -3478,7 +3478,7 @@ button:focus-visible {
 
 
 /* ============================================
-   PLUMBERSWEBSITES — PREMIUM PRICING SECTION
+   PLUMBERSWEBSITES - PREMIUM PRICING SECTION
    ============================================ */
 
 #pricing .pricing-content {
@@ -3489,8 +3489,6 @@ button:focus-visible {
     text-align: center;
 }
 
-/* Section introduction */
-
 #pricing .pricing-eyebrow {
     display: inline-block;
     margin-bottom: 16px;
@@ -3498,7 +3496,6 @@ button:focus-visible {
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 1.8px;
-    line-height: 1.5;
 }
 
 #pricing .pricing-content h2 {
@@ -3518,8 +3515,6 @@ button:focus-visible {
     font-size: 17px;
     line-height: 1.8;
 }
-
-/* Two pricing cards */
 
 #pricing .pricing-grid {
     display: grid;
@@ -3541,10 +3536,7 @@ button:focus-visible {
     border: 1px solid #e2e8f0;
     border-radius: 18px;
     box-shadow: 0 12px 35px rgba(15, 23, 42, 0.055);
-    transition:
-        transform 200ms ease,
-        box-shadow 200ms ease,
-        border-color 200ms ease;
+    transition: transform 200ms ease, box-shadow 200ms ease;
 }
 
 #pricing .pricing-card:hover {
@@ -3552,15 +3544,9 @@ button:focus-visible {
     box-shadow: 0 20px 45px rgba(15, 23, 42, 0.09);
 }
 
-/* Highlight the annual plan */
-
 #pricing .pricing-card-featured {
     border: 2px solid #2563eb;
     box-shadow: 0 16px 42px rgba(37, 99, 235, 0.10);
-}
-
-#pricing .pricing-card-featured:hover {
-    box-shadow: 0 23px 48px rgba(37, 99, 235, 0.16);
 }
 
 #pricing .pricing-popular-label {
@@ -3575,11 +3561,8 @@ button:focus-visible {
     font-size: 10px;
     font-weight: 800;
     letter-spacing: 1.2px;
-    line-height: 1.2;
     white-space: nowrap;
 }
-
-/* Plan heading */
 
 #pricing .pricing-card-heading {
     margin-bottom: 22px;
@@ -3600,7 +3583,6 @@ button:focus-visible {
     font-size: 26px;
     font-weight: 800;
     line-height: 1.25;
-    letter-spacing: -0.5px;
 }
 
 #pricing .pricing-plan-description {
@@ -3609,8 +3591,6 @@ button:focus-visible {
     font-size: 14px;
     line-height: 1.75;
 }
-
-/* Price display */
 
 #pricing .pricing-price {
     display: flex;
@@ -3640,7 +3620,6 @@ button:focus-visible {
     margin-left: 5px;
     color: #64748b;
     font-size: 15px;
-    font-weight: 500;
 }
 
 #pricing .pricing-billing-note {
@@ -3650,8 +3629,6 @@ button:focus-visible {
     font-size: 13px;
     line-height: 1.6;
 }
-
-/* Annual savings */
 
 #pricing .pricing-savings {
     align-self: flex-start;
@@ -3666,15 +3643,11 @@ button:focus-visible {
     letter-spacing: 0.7px;
 }
 
-/* Divider */
-
 #pricing .pricing-divider {
     height: 1px;
     margin: 26px 0 24px;
     background: #e2e8f0;
 }
-
-/* Included features */
 
 #pricing .pricing-features {
     display: flex;
@@ -3709,8 +3682,6 @@ button:focus-visible {
     font-weight: 800;
 }
 
-/* Pricing buttons */
-
 #pricing .pricing-button {
     display: flex;
     align-items: center;
@@ -3724,15 +3695,9 @@ button:focus-visible {
     border-radius: 9px;
     font-size: 13px;
     font-weight: 800;
-    letter-spacing: 0.35px;
-    line-height: 1.4;
     text-align: center;
     text-decoration: none;
-    transition:
-        color 180ms ease,
-        background 180ms ease,
-        box-shadow 180ms ease,
-        transform 180ms ease;
+    transition: color 180ms ease, background 180ms ease, box-shadow 180ms ease;
 }
 
 #pricing .pricing-button-secondary {
@@ -3744,7 +3709,6 @@ button:focus-visible {
     color: #ffffff;
     background: #2563eb;
     box-shadow: 0 8px 20px rgba(37, 99, 235, 0.18);
-    transform: translateY(-1px);
 }
 
 #pricing .pricing-button-primary {
@@ -3757,15 +3721,12 @@ button:focus-visible {
     background: #1d4ed8;
     border-color: #1d4ed8;
     box-shadow: 0 10px 24px rgba(37, 99, 235, 0.25);
-    transform: translateY(-1px);
 }
 
 #pricing .pricing-button:focus-visible {
     outline: 3px solid #93c5fd;
     outline-offset: 4px;
 }
-
-/* Small note under each button */
 
 #pricing .pricing-card-footnote {
     margin: 15px 0 0;
@@ -3774,8 +3735,6 @@ button:focus-visible {
     line-height: 1.6;
     text-align: center;
 }
-
-/* Reassurance row */
 
 #pricing .pricing-reassurance {
     display: flex;
@@ -3799,8 +3758,6 @@ button:focus-visible {
 #pricing .pricing-reassurance .pricing-reassurance-separator {
     color: #cbd5e1;
 }
-
-/* Tablet */
 
 @media (max-width: 760px) {
     #pricing .pricing-content {
@@ -3826,8 +3783,6 @@ button:focus-visible {
         margin-top: 6px;
     }
 }
-
-/* Small mobile screens */
 
 @media (max-width: 420px) {
     #pricing .pricing-content {
@@ -3863,8 +3818,6 @@ button:focus-visible {
     }
 }
 
-/* Reduced motion accessibility */
-
 @media (prefers-reduced-motion: reduce) {
     #pricing .pricing-card,
     #pricing .pricing-button {
@@ -3876,3 +3829,4 @@ button:focus-visible {
         transform: none;
     }
 }
+
