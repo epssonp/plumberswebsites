@@ -4369,3 +4369,44 @@ button:focus-visible {
     }
 }
 
+
+/* ============================================
+   HOMEPAGE — TIGHTER SECTION SPACING
+   Targeted spacing adjustment
+   ============================================ */
+
+#main-content > section.page-section:not(.hero-section) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+/* Keep the pricing cards comfortable inside their section */
+#reveal .pricing-content {
+    padding-top: 48px;
+    padding-bottom: 52px;
+}
+
+/* Reduce excess space around the final CTA */
+#final-cta .final-cta-container {
+    padding-top: 60px;
+    padding-bottom: 64px;
+}
+
+/* Mobile: compact, but still comfortable */
+@media (max-width: 760px) {
+    #main-content > section.page-section:not(.hero-section) {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
+    #reveal .pricing-content {
+        padding-top: 38px;
+        padding-bottom: 42px;
+    }
+
+    #final-cta .final-cta-container {
+        padding-top: 44px;
+        padding-bottom: 48px;
+    }
+}
+
