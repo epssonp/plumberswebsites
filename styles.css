@@ -4174,3 +4174,198 @@ button:focus-visible {
     }
 }
 
+
+/* ============================================
+   PLUMBERSWEBSITES — PREMIUM FINAL CTA
+   ============================================ */
+
+#final-cta {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            ellipse at 50% 0%,
+            rgba(59, 130, 246, 0.09),
+            transparent 60%
+        ),
+        #f5f8ff;
+    border-top: 1px solid #e8eef8;
+}
+
+#final-cta .final-cta-container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 88px 24px 92px;
+    text-align: center;
+}
+
+/* Eyebrow */
+
+#final-cta .final-cta-eyebrow {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2563eb;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    line-height: 1.6;
+}
+
+/* Heading */
+
+#final-cta h2 {
+    max-width: 780px;
+    margin: 0 auto 22px;
+    color: #172342;
+    font-size: clamp(34px, 4.5vw, 52px);
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+}
+
+/* Description */
+
+#final-cta .final-cta-description {
+    max-width: 690px;
+    margin: 0 auto;
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.85;
+}
+
+/* Button */
+
+#final-cta .final-cta-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+#final-cta .final-cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    min-width: 245px;
+    min-height: 58px;
+    padding: 17px 30px;
+    color: #ffffff;
+    background: #2563eb;
+    border: 2px solid #2563eb;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.20);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    transition:
+        background 180ms ease,
+        border-color 180ms ease,
+        box-shadow 180ms ease,
+        transform 180ms ease;
+}
+
+#final-cta .final-cta-button:hover {
+    color: #ffffff;
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    box-shadow: 0 14px 30px rgba(37, 99, 235, 0.28);
+    transform: translateY(-2px);
+}
+
+#final-cta .final-cta-button span {
+    font-size: 19px;
+    line-height: 1;
+}
+
+/* Reassurance */
+
+#final-cta .final-cta-reassurance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin: 22px auto 0;
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+#final-cta .final-cta-reassurance > span:first-child {
+    color: #2563eb;
+    font-weight: 800;
+}
+
+#final-cta .final-cta-separator {
+    padding: 0 3px;
+    color: #cbd5e1;
+}
+
+/* Keyboard accessibility */
+
+#final-cta .final-cta-button:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 5px;
+}
+
+/* Tablet and mobile */
+
+@media (max-width: 760px) {
+    #final-cta .final-cta-container {
+        padding: 68px 22px 72px;
+    }
+
+    #final-cta h2 {
+        font-size: clamp(32px, 6vw, 42px);
+        letter-spacing: -1px;
+    }
+
+    #final-cta .final-cta-description {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 420px) {
+    #final-cta .final-cta-container {
+        padding: 56px 18px 60px;
+    }
+
+    #final-cta .final-cta-eyebrow {
+        font-size: 10px;
+        letter-spacing: 1.3px;
+    }
+
+    #final-cta h2 {
+        font-size: 32px;
+    }
+
+    #final-cta .final-cta-button {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #final-cta .final-cta-reassurance {
+        gap: 6px;
+        font-size: 11px;
+    }
+}
+
+/* Reduced motion accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+    #final-cta .final-cta-button {
+        transition: none;
+    }
+
+    #final-cta .final-cta-button:hover {
+        transform: none;
+    }
+}
+
