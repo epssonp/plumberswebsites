@@ -5038,3 +5038,37 @@ button:focus-visible {
     }
 }
 
+/* ABOUT PAGE — scoped to .about-page */
+
+.about-page .about-section-note {
+    max-width: 720px;
+    margin: 28px auto 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.about-page .about-section-note--center {
+    text-align: center;
+}
+
+.about-page .about-section-note a {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.about-page .about-final-actions {
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-page .about-final-secondary {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.about-page .about-final-secondary:hover {
+    color: #fff;
+}
+
