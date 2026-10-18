@@ -4982,3 +4982,59 @@ button:focus-visible {
     }
 }
 
+/* OUR APPROACH PAGE — scoped to .approach-page */
+
+.approach-page .approach-section-note {
+    max-width: 720px;
+    margin: 28px auto 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.approach-page .approach-section-note--center {
+    text-align: center;
+}
+
+.approach-page .approach-section-note a {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.approach-page .approach-design-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.approach-page .approach-design-figure a {
+    display: block;
+}
+
+.approach-page .approach-link-separator {
+    margin: 0 10px;
+    color: var(--color-text-muted);
+}
+
+.approach-page .approach-final-actions {
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.approach-page .approach-final-secondary {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.approach-page .approach-final-secondary:hover {
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .approach-page .approach-design-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
