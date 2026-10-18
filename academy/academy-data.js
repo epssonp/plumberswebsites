@@ -12,6 +12,50 @@ window.PLW_ACADEMY = {
       "subcategoryId": "SC18",
       "summary": "Step-by-step guide for US plumbing business owners: plan your site, choose a build approach, essential pages, mobile contact, honest trust signals, and a pre-launch checklist.",
       "keywords": "how to build a plumbing website; how to make a plumbing website; what pages should a plumbing website have; plumbing business website"
+    },
+    {
+      "id": "A201",
+      "title": "Best Plumber Website Builder: An Honest Comparison for Plumbing Businesses",
+      "slug": "best-plumber-website-builder",
+      "url": "https://plumberswebsites.com/academy/best-plumber-website-builder/",
+      "status": "published",
+      "categoryId": 5,
+      "subcategoryId": "SC19",
+      "summary": "Compare trade-focused builders, DIY platforms, WordPress, and agency paths using selection criteria for US plumbing business owners — without invented rankings or competitor pricing.",
+      "keywords": "best plumber website builder; best website builder for plumbers; wordpress for plumbing business; ai plumbing website builder"
+    },
+    {
+      "id": "A219",
+      "title": "How Much Does a Plumbing Website Cost? Realistic Ranges for Owners",
+      "slug": "plumbing-website-cost",
+      "url": "https://plumberswebsites.com/academy/plumbing-website-cost/",
+      "status": "published",
+      "categoryId": 5,
+      "subcategoryId": "SC20",
+      "summary": "Educational guide to plumbing website total cost of ownership: domains, hosting, build options, maintenance, owner time, and what to compare in vendor quotes — distinct from homepage Pricing.",
+      "keywords": "plumbing website cost; how much does a plumbing website cost; plumber website price"
+    },
+    {
+      "id": "A200",
+      "title": "Plumbing Website Examples: What Strong Plumbing Business Sites Include",
+      "slug": "plumbing-website-examples",
+      "url": "https://plumberswebsites.com/academy/plumbing-website-examples/",
+      "status": "published",
+      "categoryId": 5,
+      "subcategoryId": "SC19",
+      "summary": "Criteria-based guide to plumbing website examples: page patterns, mobile contact, trust signals, and design gallery links — not performance guarantees.",
+      "keywords": "plumbing website examples; plumber website examples; plumbing company website inspiration"
+    },
+    {
+      "id": "A185",
+      "title": "Plumbing Website Checklist: What to Prepare Before You Launch",
+      "slug": "plumbing-website-checklist",
+      "url": "https://plumberswebsites.com/academy/plumbing-website-checklist/",
+      "status": "published",
+      "categoryId": 5,
+      "subcategoryId": "SC18",
+      "summary": "Actionable pre-launch and post-launch checklist for plumbing business websites: content, contact, service areas, trust, technical and SEO basics — complements the how-to build guide.",
+      "keywords": "plumbing website checklist"
     }
   ],
   "categories": [

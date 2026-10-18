@@ -655,6 +655,38 @@
     border-radius: 2px;
 }
 
+.academy-table-wrap {
+    overflow-x: auto;
+    margin: 1.25em 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.academy-data-table {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+}
+
+.academy-data-table th,
+.academy-data-table td {
+    border: 1px solid var(--color-border);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.academy-data-table th {
+    background: var(--color-surface);
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.academy-data-table tbody tr:nth-child(even) {
+    background: color-mix(in srgb, var(--color-surface) 60%, transparent);
+}
+
 .academy-related-reading {
     margin-top: 48px;
     padding-top: 28px;
