@@ -1,7 +1,19 @@
 /* Implementation metadata — not raw research CSVs. */
 window.PLW_ACADEMY = {
   "version": 1,
-  "publishedArticles": [],
+  "publishedArticles": [
+    {
+      "id": "A181",
+      "title": "How to Build a Plumbing Website: A Practical Guide for Plumbing Business Owners",
+      "slug": "how-to-build-a-plumbing-website",
+      "url": "https://plumberswebsites.com/academy/how-to-build-a-plumbing-website/",
+      "status": "published",
+      "categoryId": 5,
+      "subcategoryId": "SC18",
+      "summary": "Step-by-step guide for US plumbing business owners: plan your site, choose a build approach, essential pages, mobile contact, honest trust signals, and a pre-launch checklist.",
+      "keywords": "how to build a plumbing website; how to make a plumbing website; what pages should a plumbing website have; plumbing business website"
+    }
+  ],
   "categories": [
     {
       "id": 1,
