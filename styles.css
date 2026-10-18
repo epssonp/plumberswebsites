@@ -3226,7 +3226,8 @@ button:focus-visible {
    PREMIUM PLUMBER WEBSITE DESIGN GALLERY
    ========================================= */
 
-#business .design-gallery-content {
+#business .design-gallery-content,
+.designs-page .design-gallery-content {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
@@ -3234,7 +3235,8 @@ button:focus-visible {
     text-align: center;
 }
 
-#business .design-gallery-eyebrow {
+#business .design-gallery-eyebrow,
+.designs-page .design-gallery-eyebrow {
     display: inline-block;
     margin-bottom: 16px;
     color: #2563eb;
@@ -3244,7 +3246,8 @@ button:focus-visible {
     line-height: 1.5;
 }
 
-#business .design-gallery-content h2 {
+#business .design-gallery-content h2,
+.designs-page .design-gallery-content h2 {
     max-width: 900px;
     margin: 0 auto 16px;
     color: #172342;
@@ -3254,7 +3257,8 @@ button:focus-visible {
     letter-spacing: -1px;
 }
 
-#business .design-gallery-intro {
+#business .design-gallery-intro,
+.designs-page .design-gallery-intro {
     max-width: 760px;
     margin: 0 auto 42px;
     color: #64748b;
@@ -3264,7 +3268,8 @@ button:focus-visible {
 
 /* Three columns on desktop */
 
-#business .design-gallery-grid {
+#business .design-gallery-grid,
+.designs-page .design-gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 28px 24px;
@@ -3273,7 +3278,8 @@ button:focus-visible {
 
 /* Individual design card */
 
-#business .design-gallery-card {
+#business .design-gallery-card,
+.designs-page .design-gallery-card {
     min-width: 0;
     overflow: hidden;
     background: #ffffff;
@@ -3286,7 +3292,8 @@ button:focus-visible {
         border-color 180ms ease;
 }
 
-#business .design-gallery-card:hover {
+#business .design-gallery-card:hover,
+.designs-page .design-gallery-card:hover {
     transform: translateY(-4px);
     border-color: #cbdafc;
     box-shadow: 0 16px 38px rgba(15, 23, 42, 0.10);
@@ -3294,7 +3301,8 @@ button:focus-visible {
 
 /* Browser-style frame */
 
-#business .design-gallery-image-link {
+#business .design-gallery-image-link,
+.designs-page .design-gallery-image-link {
     position: relative;
     display: block;
     overflow: hidden;
@@ -3303,7 +3311,8 @@ button:focus-visible {
     text-decoration: none;
 }
 
-#business .design-gallery-browser-bar {
+#business .design-gallery-browser-bar,
+.designs-page .design-gallery-browser-bar {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -3313,7 +3322,8 @@ button:focus-visible {
     border-bottom: 1px solid #e2e8f0;
 }
 
-#business .design-gallery-browser-bar > span:not(.design-gallery-browser-label) {
+#business .design-gallery-browser-bar > span:not(.design-gallery-browser-label),
+.designs-page .design-gallery-browser-bar > span:not(.design-gallery-browser-label) {
     display: block;
     width: 7px;
     height: 7px;
@@ -3322,7 +3332,8 @@ button:focus-visible {
     border-radius: 50%;
 }
 
-#business .design-gallery-browser-label {
+#business .design-gallery-browser-label,
+.designs-page .design-gallery-browser-label {
     margin-left: auto;
     color: #94a3b8;
     font-size: 10px;
@@ -3331,7 +3342,8 @@ button:focus-visible {
 
 /* Preserve the full wide screenshot */
 
-#business .design-gallery-image-link img {
+#business .design-gallery-image-link img,
+.designs-page .design-gallery-image-link img {
     display: block;
     width: 100%;
     height: auto;
@@ -3342,13 +3354,16 @@ button:focus-visible {
 }
 
 #business .design-gallery-card:hover
+.designs-page .design-gallery-card:hover
 .design-gallery-image-link img {
+.designs-page .design-gallery-image-link img {
     transform: scale(1.015);
 }
 
 /* Full-size viewing cue */
 
-#business .design-gallery-view-label {
+#business .design-gallery-view-label,
+.designs-page .design-gallery-view-label {
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -3370,25 +3385,31 @@ button:focus-visible {
 }
 
 #business .design-gallery-card:hover
+.designs-page .design-gallery-card:hover
 .design-gallery-view-label,
 #business .design-gallery-image-link:focus-visible
+.designs-page .design-gallery-image-link:focus-visible
 .design-gallery-view-label {
+.designs-page .design-gallery-view-label {
     opacity: 1;
     transform: translateY(0);
 }
 
-#business .design-gallery-image-link:focus-visible {
+#business .design-gallery-image-link:focus-visible,
+.designs-page .design-gallery-image-link:focus-visible {
     outline: 3px solid #2563eb;
     outline-offset: -3px;
 }
 
 /* Card descriptions */
 
-#business .design-gallery-card-info {
+#business .design-gallery-card-info,
+.designs-page .design-gallery-card-info {
     padding: 20px 21px 22px;
 }
 
-#business .design-gallery-card-number {
+#business .design-gallery-card-number,
+.designs-page .design-gallery-card-number {
     display: block;
     margin-bottom: 8px;
     color: #2563eb;
@@ -3397,7 +3418,8 @@ button:focus-visible {
     letter-spacing: 1.4px;
 }
 
-#business .design-gallery-card-info h3 {
+#business .design-gallery-card-info h3,
+.designs-page .design-gallery-card-info h3 {
     margin: 0 0 8px;
     color: #172342;
     font-size: 20px;
@@ -3405,7 +3427,8 @@ button:focus-visible {
     line-height: 1.35;
 }
 
-#business .design-gallery-card-info p {
+#business .design-gallery-card-info p,
+.designs-page .design-gallery-card-info p {
     margin: 0;
     color: #64748b;
     font-size: 14px;
@@ -3414,7 +3437,8 @@ button:focus-visible {
 
 /* Sample website disclosure */
 
-#business .design-gallery-note {
+#business .design-gallery-note,
+.designs-page .design-gallery-note {
     max-width: 760px;
     margin: 34px auto 0;
     color: #64748b;
@@ -3425,7 +3449,8 @@ button:focus-visible {
 /* Tablet: two columns */
 
 @media (max-width: 1000px) {
-    #business .design-gallery-grid {
+#business .design-gallery-grid,
+.designs-page .design-gallery-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 22px;
     }
@@ -3434,36 +3459,43 @@ button:focus-visible {
 /* Mobile: one column */
 
 @media (max-width: 600px) {
-    #business .design-gallery-content {
+#business .design-gallery-content,
+.designs-page .design-gallery-content {
         padding: 20px 0;
     }
 
-    #business .design-gallery-eyebrow {
+#business .design-gallery-eyebrow,
+.designs-page .design-gallery-eyebrow {
         font-size: 10px;
         letter-spacing: 1.3px;
     }
 
-    #business .design-gallery-content h2 {
+#business .design-gallery-content h2,
+.designs-page .design-gallery-content h2 {
         font-size: clamp(28px, 7vw, 36px);
         letter-spacing: -0.6px;
     }
 
-    #business .design-gallery-intro {
+#business .design-gallery-intro,
+.designs-page .design-gallery-intro {
         margin-bottom: 28px;
         font-size: 15px;
     }
 
-    #business .design-gallery-grid {
+#business .design-gallery-grid,
+.designs-page .design-gallery-grid {
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    #business .design-gallery-card-info {
+#business .design-gallery-card-info,
+.designs-page .design-gallery-card-info {
         padding: 18px;
     }
 
     /* Keep the viewing cue visible on touch screens */
-    #business .design-gallery-view-label {
+#business .design-gallery-view-label,
+.designs-page .design-gallery-view-label {
         opacity: 1;
         transform: none;
         font-size: 9px;
@@ -3476,17 +3508,20 @@ button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
     #business .design-gallery-card,
     #business .design-gallery-image-link img,
-    #business .design-gallery-view-label {
+#business .design-gallery-view-label,
+.designs-page .design-gallery-view-label {
         transition: none;
     }
 
     #business .design-gallery-card:hover,
+    .designs-page .design-gallery-card:hover,
     #business .design-gallery-card:hover
+    .designs-page .design-gallery-card:hover
     .design-gallery-image-link img {
+.designs-page .design-gallery-image-link img {
         transform: none;
     }
 }
-
 
 /* PLUMBERSWEBSITES - PREMIUM PRICING SECTION */
 
@@ -5070,5 +5105,110 @@ button:focus-visible {
 
 .about-page .about-final-secondary:hover {
     color: #fff;
+}
+
+/* DESIGNS PAGE — scoped to .designs-page */
+
+.designs-page .design-gallery-card-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    color: var(--color-primary, #2563eb);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.designs-page .design-gallery-card-action:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.designs-page .designs-faq-section {
+    background: #f8fafc;
+}
+
+.designs-page .designs-faq-list {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.designs-page .designs-faq-item {
+    margin-bottom: 12px;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.designs-page .designs-faq-item summary {
+    padding: 18px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #172342;
+    list-style: none;
+}
+
+.designs-page .designs-faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.designs-page .designs-faq-answer {
+    padding: 0 20px 18px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.designs-page .designs-faq-answer p {
+    margin: 0;
+}
+
+.designs-page .designs-pages-list {
+    max-width: 720px;
+    margin: 24px auto 0;
+    text-align: left;
+    padding-left: 1.25em;
+    color: var(--color-text-muted, #64748b);
+    line-height: 1.75;
+}
+
+.designs-page .designs-pages-list li + li {
+    margin-top: 0.35em;
+}
+
+.designs-page .designs-section-note {
+    max-width: 720px;
+    margin: 28px auto 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--color-text-muted, #64748b);
+}
+
+.designs-page .designs-section-note--center {
+    text-align: center;
+}
+
+.designs-page .designs-section-note a {
+    color: var(--color-primary, #2563eb);
+    font-weight: 700;
+}
+
+.designs-page .designs-preview-actions {
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.designs-page .designs-final-cta-actions {
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
+
+.designs-page .designs-final-cta-secondary {
+    margin-top: 4px;
 }
 
