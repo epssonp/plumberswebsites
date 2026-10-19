@@ -140,7 +140,8 @@
                     </p>
                 </header>
 
-                <form id="contact-form" class="contact-form" action="/api/contact" method="post" novalidate>
+                <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="post" novalidate>
+                    <input type="hidden" name="access_key" value="13a50d8c-eeef-4f72-b5f1-d3a640456216">
                     <div class="contact-form-field">
                         <label for="contact-name">Name <span class="contact-form-required">(required)</span></label>
                         <input type="text" id="contact-name" name="name" autocomplete="name" required maxlength="120">
