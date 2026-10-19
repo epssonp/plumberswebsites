@@ -128,6 +128,51 @@
 
     <main id="contact-main" class="contact-page features-page">
 
+        <section id="contact-form-section" class="page-section contact-form-section"
+            aria-labelledby="contact-form-title">
+            <div class="container contact-form-container">
+                <header class="contact-form-header">
+                    <p class="features-eyebrow">SEND A MESSAGE</p>
+                    <h2 id="contact-form-title" class="contact-form-title">Contact Us</h2>
+                    <p class="contact-form-intro">
+                        Questions about a website for your plumbing business? Send us a message below and we will
+                        reply to the email address you provide.
+                    </p>
+                </header>
+
+                <form id="contact-form" class="contact-form" action="/api/contact" method="post" novalidate>
+                    <div class="contact-form-field">
+                        <label for="contact-name">Name <span class="contact-form-required">(required)</span></label>
+                        <input type="text" id="contact-name" name="name" autocomplete="name" required maxlength="120">
+                    </div>
+                    <div class="contact-form-field">
+                        <label for="contact-email">Email address <span class="contact-form-required">(required)</span></label>
+                        <input type="email" id="contact-email" name="email" autocomplete="email" required
+                            maxlength="254" inputmode="email">
+                    </div>
+                    <div class="contact-form-field">
+                        <label for="contact-subject">Subject <span class="contact-form-optional">(optional)</span></label>
+                        <input type="text" id="contact-subject" name="subject" autocomplete="off" maxlength="200">
+                    </div>
+                    <div class="contact-form-field">
+                        <label for="contact-message">Message <span class="contact-form-required">(required)</span></label>
+                        <textarea id="contact-message" name="message" rows="6" required minlength="10"
+                            maxlength="5000"></textarea>
+                    </div>
+                    <div class="contact-form-honeypot" aria-hidden="true">
+                        <label for="contact-company-website">Company website</label>
+                        <input type="text" id="contact-company-website" name="company_website" tabindex="-1"
+                            autocomplete="off">
+                    </div>
+                    <div id="contact-turnstile" class="contact-turnstile-wrap"></div>
+                    <div class="contact-form-actions">
+                        <button type="submit" class="contact-form-submit">Send Message</button>
+                    </div>
+                    <p id="contact-form-status" class="contact-form-status" role="status" aria-live="polite" hidden></p>
+                </form>
+            </div>
+        </section>
+
         <section id="contact-hero" class="page-section features-hero" aria-labelledby="contact-hero-title">
             <div class="container features-hero-container">
                 <div class="features-hero-copy">
@@ -321,6 +366,7 @@
     </footer>
 
     <script src="/script.js"></script>
+    <script src="/contact-form.js"></script>
 
 </body>
 
