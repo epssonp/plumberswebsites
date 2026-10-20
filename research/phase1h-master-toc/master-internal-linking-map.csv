@@ -1,0 +1,14 @@
+source_article_id,destination_type,destination_article_id,destination_url,anchor_concept,link_purpose,priority,verification_required
+A181,commercial,,https://plumberswebsites.com/#design,see how the preview process works,Process CTA,P1,no
+A181,commercial,,https://plumberswebsites.com/features/,what's included in your plumbing site,Features depth,P1,no
+A181,article,A201,,compare plumber website builders,Consideration funnel,P1,no
+A181,article,A219,,what a plumbing website costs,Budget planning,P1,no
+A181,article,A185,,pre-launch checklist,Actionable next step,P1,no
+A201,commercial,,https://plumberswebsites.com/,preview your own plumbing website,Product next step,P1,avoid exact-match spam
+A201,article,A219,,plumbing website pricing ranges,Post-comparison budget,P1,no
+A201,article,A181,,how to build a plumbing website,Implementation path,P1,no
+A219,commercial,,https://plumberswebsites.com/#pricing,see our website pricing,Commercial offer after TCO,P1,no
+A219,article,A220,,is a website worth it,ROI framing,P1,no
+A200,commercial,,https://plumberswebsites.com/#business,choose a design for your business,Gallery selection,P1,no
+A200,article,A201,,compare website builders,After inspiration,P1,no
+A121,article,A181,,building your plumbing website,GBP → site creation,P1,no

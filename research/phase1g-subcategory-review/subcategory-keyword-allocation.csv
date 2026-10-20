@@ -1,0 +1,25 @@
+keyword,parent_category_id,subcategory_id,subcategory_title,recommended_hierarchy_level,evidence_status,evidence_source,evidence_date,volume_band,numeric_volume,allocation_rationale,overlap_risk,validation_needed
+how to build a plumbing website,5,SC18,Planning & Building Your Plumbing Website,article,tool_volume_band,phase1d-keyword-volume-audit.csv,2026-10-18,>100,,Phase 1E AC-01 flagship; SC18 build hub,low,Semrush numeric
+what pages should a plumbing website have,5,SC18,Planning & Building Your Plumbing Website,article,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,Features section + AC-01; not subcategory title,medium vs /features/,Semrush
+plumbing website checklist,5,SC18,Planning & Building Your Plumbing Website,article,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,AC-08,low,Semrush
+plumbing website template,5,SC19,"Website Builders, Templates & Examples",article,tool_volume_band,phase1d 2026-10-18,2026-10-18,>100,,Gallery #business owns selection; Academy educates,medium vs #business,Semrush
+plumbing website examples,5,SC19,"Website Builders, Templates & Examples",article,tool_volume_band,phase1d 2026-10-18,2026-10-18,>100,,AC-02,medium vs #business,SERP intent
+best plumber website builder,5,SC19,"Website Builders, Templates & Examples",article,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,AC-03 comparison — not subcategory H1,high vs homepage,Semrush + intent
+plumbing website design,5,SC19,"Website Builders, Templates & Examples",article,tool_volume_band,phase1d 2026-10-18,2026-10-18,>100,,Commercial /features/ primary — Academy supports only,high vs /features/,Do not use as SC19 hub primary
+plumber website builder,5,SC19,"Website Builders, Templates & Examples",commercial_only,tool_volume_band,phase1d 2026-10-18,2026-10-18,>100,,Homepage only — not Academy hub,high,N/A — ownership locked
+plumbing website cost,5,SC20,"Website Costs, Hosting & Maintenance",article,tool_volume_band,phase1d 2026-10-18,2026-10-18,<100,,AC-04 TCO vs #pricing offer,medium vs #pricing,Semrush
+plumbing website hosting,5,SC20,"Website Costs, Hosting & Maintenance",article,tool_volume_band,phase1d 2026-10-18,2026-10-18,<100,,AC-11,low,Semrush
+is a website worth it for plumbers,5,SC20,"Website Costs, Hosting & Maintenance",article,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,AC-09 ROI,low,Semrush
+plumbing website features,5,SC21,"Website Conversion, Features & On-Site SEO",article,tool_volume_band,phase1d 2026-10-18,2026-10-18,<100,,Supports /features/,medium vs /features/,Semrush
+click to call plumber website,5,SC21,"Website Conversion, Features & On-Site SEO",article,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,Conversion hub TR-09,low,Semrush
+google business profile for plumbers,4,SC14,Google Business Profile & Local Listings,subcategory_supporting,tool_volume_band,phase1d 2026-10-18,2026-10-18,<100,,Natural fit SC14 hub theme,low,Semrush
+local seo for plumbing company,4,SC15,Local SEO & Maps Visibility,subcategory_supporting,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,SC15 title intent — validate before SEO-led rename,medium vs SC21,SERP mandatory
+seo for plumbing business,4,SC15,Local SEO & Maps Visibility,article,tool_volume_band,phase1d 2026-10-18,2026-10-18,<100,,Owner SEO pillar article(s),medium SERP noise,SERP owner vs agency
+how to get more plumbing customers,4,SC17,"Marketing, Advertising & Lead Generation",article,tool_volume_band,phase1d 2026-10-18,2026-10-18,<100,,Lead gen pillar,low,Semrush
+plumbing business marketing ideas,4,SC17,"Marketing, Advertising & Lead Generation",article,unverified_candidate,secondary-shortlist.csv,2026-10-18,,,Marketing hub spoke,low,Volume unknown
+google reviews for plumbing business,4,SC16,"Reviews, Reputation & Referrals",article,unverified_candidate,secondary-shortlist.csv,2026-10-18,,,Reputation subcategory,low,SERP
+starting a plumbing business checklist,3,SC10,Starting a Plumbing Business,article,unverified_candidate,secondary-shortlist.csv,2026-10-18,,,Startup hub anchor article,low,Semrush/GKP
+best software for plumbing business,3,SC12,"Operations, Scheduling & Customer Service",article,unverified_candidate,secondary-shortlist.csv,2026-10-18,,,Operations software — trend angle SC23,medium vs SC23,Intent split
+plumbing business license and website,2,SC07,Plumbing Licensing & State Requirements,article,unverified_candidate,unverified-keyword-opportunities.csv,2026-10-18,,,Cross-link to SC18,medium vs Cat 5,Volume + SERP
+done for you plumber website,5,SC18,Planning & Building Your Plumbing Website,article,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,Process story — link #design,medium vs #design,Semrush
+preview plumbing website before paying,5,SC18,Planning & Building Your Plumbing Website,article,no_exact_match_returned,phase1d 2026-10-18,2026-10-18,,,#design section owner,medium vs #design,Semrush

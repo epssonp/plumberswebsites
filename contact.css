@@ -1,4 +1,4 @@
-/* Contact page — separate file so these rules are not trapped by
+﻿/* Contact page — separate file so these rules are not trapped by
    unclosed selectors later in styles.css. Scoped to .contact-page. */
 
 .contact-body .header-inner > .hero-cta {

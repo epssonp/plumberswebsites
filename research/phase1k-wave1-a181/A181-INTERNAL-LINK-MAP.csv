@@ -1,0 +1,20 @@
+link_id,source_page,anchor_text,destination_url,destination_type,purpose,status
+L01,A181,Planning & Building,/academy/plumbing-websites-digital-tools/planning-and-building-your-plumbing-website/,subcategory,Section context,published
+L02,A181,website builders templates and examples,/academy/plumbing-websites-digital-tools/website-builders-templates-and-examples/,subcategory,Future A201/A200 hub — no article links yet,published
+L03,A181,what is included on the Features page,/features/,commercial,Product detail without owning design keyword,published
+L04,A181,website conversion and on-site SEO,/academy/plumbing-websites-digital-tools/website-conversion-features-and-on-site-seo/,subcategory,Conversion depth,published
+L05,A181,website costs hosting and maintenance,/academy/plumbing-websites-digital-tools/website-costs-hosting-and-maintenance/,subcategory,Future A219 hub — no article link yet,published
+L06,A181,pricing section,/#pricing,commercial_fragment,TCO pointer; pricing owned by homepage section,published
+L07,A181,homepage design gallery,/#business,commercial_fragment,Visual layouts; template intent owned by Designs section,published
+L08,A181,how the preview process works,/#design,commercial_fragment,Process CTA per Phase 1E plan,published
+L09,A181,PlumbersWebsites.com homepage,/,commercial,Optional path mention,published
+L10,A181,Get Started — Preview First,https://app.plumberswebsites.com/sign-in,application,Article-end CTA,published
+L11,A181,Related — Planning section,/academy/plumbing-websites-digital-tools/planning-and-building-your-plumbing-website/,subcategory,Related reading,published
+L12,A181,Related — builders section,/academy/plumbing-websites-digital-tools/website-builders-templates-and-examples/,subcategory,Related reading,published
+L13,A181,Related — costs section,/academy/plumbing-websites-digital-tools/website-costs-hosting-and-maintenance/,subcategory,Related reading,published
+L14,A181,Related — Features,/features/,commercial,Related reading,published
+P01,A181,(planned),/academy/best-plumber-website-builder/,article,A201 — Best Plumber Website Builder,awaiting_publication
+P02,A181,(planned),/academy/plumbing-website-cost/,article,A219 — Plumbing Website Cost,awaiting_publication
+P03,A181,(planned),/academy/plumbing-website-checklist/,article,A185 — Plumbing Website Checklist,awaiting_publication
+P04,A181,(planned),/academy/plumbing-website-examples/,article,A200 — Plumbing Website Examples,awaiting_publication
+P05,A201,(planned inbound),/academy/how-to-build-a-plumbing-website/,article,Reverse link when A201 publishes,awaiting_publication
