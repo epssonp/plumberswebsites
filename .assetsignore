@@ -1,0 +1,11 @@
+.wrangler/
+.git/
+wrangler.toml
+.assetsignore
+.gitignore
+research/
+**/*.py
+**/__pycache__/
+**/*.pyc
+*.local-backup
+README.md
