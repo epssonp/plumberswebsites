@@ -4422,14 +4422,14 @@ button:focus-visible {
    ============================================ */
 
 #main-content > section.page-section:not(.hero-section) {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* Keep the pricing cards comfortable inside their section */
 #reveal .pricing-content {
-    padding-top: 48px;
-    padding-bottom: 52px;
+    padding-top: 36px;
+    padding-bottom: 40px;
 }
 
 /* Reduce excess space around the final CTA */
