@@ -152,8 +152,9 @@
                             maxlength="254" inputmode="email">
                     </div>
                     <div class="contact-form-field">
-                        <label for="contact-subject">Subject <span class="contact-form-optional">(optional)</span></label>
-                        <input type="text" id="contact-subject" name="subject" autocomplete="off" maxlength="200">
+                        <label for="contact-subject">Subject <span class="contact-form-required">(required)</span></label>
+                        <input type="text" id="contact-subject" name="subject" autocomplete="off" required
+                            maxlength="200">
                     </div>
                     <div class="contact-form-field">
                         <label for="contact-message">Message <span class="contact-form-required">(required)</span></label>
@@ -161,9 +162,7 @@
                             maxlength="5000"></textarea>
                     </div>
                     <div class="contact-form-honeypot" aria-hidden="true">
-                        <label for="contact-company-website">Company website</label>
-                        <input type="text" id="contact-company-website" name="company_website" tabindex="-1"
-                            autocomplete="off">
+                        <input type="checkbox" name="botcheck" value="" tabindex="-1" autocomplete="off">
                     </div>
                     <div id="contact-turnstile" class="contact-turnstile-wrap"></div>
                     <div class="contact-form-actions">
